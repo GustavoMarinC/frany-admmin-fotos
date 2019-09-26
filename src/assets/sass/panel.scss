@@ -1,0 +1,26 @@
+.panel{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.panelFashion{
+    @include textCenter();
+    @include rectanguloPanel();
+
+}
+
+.panelLingerie{
+    @include textCenter();
+    @include rectanguloPanel();
+}
+
+.panelNu{
+    @include textCenter();
+    @include rectanguloPanel();
+}
+
+.panelSport{
+    @include textCenter();
+    @include rectanguloPanel();
+}

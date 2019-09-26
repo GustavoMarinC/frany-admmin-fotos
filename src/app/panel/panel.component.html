@@ -1,0 +1,26 @@
+<div class="panel">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <a [routerLink]="['/fotos/fashion']" class="btn btn-primary panelFashion">Fashion</a>
+            </div>
+            <div class="col-6">
+                <a [routerLink]="['/fotos/lingerie']"   class="btn btn-primary panelLingerie">Lingerie</a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+                <div class="col-6">
+                    <a [routerLink]="['/fotos/nu_artistique']"  class="btn btn-primary panelNu">Nu Artistique</a>
+                </div>
+                <div class="col-6">
+                    <a [routerLink]="['/fotos/sport']" class="btn btn-primary panelSport">Sport</a>
+                </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+            <button [routerLink]="['/addPhoto']" class="btn btn-success">Add Photo</button>
+    </div>
+</div>
+

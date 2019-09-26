@@ -1,0 +1,32 @@
+<h3>Agregar foto</h3>
+<hr>
+<form #formProducto="ngForm" (ngSubmit)="onSubmit()" class="col-6" id="form-photo">
+    <label>
+        Nombre
+    </label>
+    <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="Photo.nombre" class="form-control"  required>
+    <label>
+        Descripcion
+    </label>
+    <textarea class="form-control"  name="descripcion" #descripcion="ngModel" [(ngModel)]="Photo.descripcion" required></textarea>
+
+    <label>
+        Tipo
+    </label>
+    <select name="select_tabla" id="" [(ngModel)]="Photo.tabla">
+        <option [value]="item" *ngFor="let item of tipos">
+            {{item}}
+        </option>
+    </select><br>
+    <label>Imagen</label>
+    <div *ngIf="is_edit">
+        <img src="" width="60">
+    </div>
+    <input type="file" class="form-control"  (change)="fileChangeEvent($event)">
+
+    
+    <br>
+    <input type="submit" value="Agregar" class="btn btn-success" [disabled]="!formProducto.form.valid">
+
+    
+</form>

@@ -1,0 +1,13 @@
+
+  <div class="panelfotos">
+    <div  *ngFor="let photo of photos">
+        
+     <div class="card">
+            <h3>{{photo.nombre}}</h3>
+            <img src="http://franylife.com/gustavoamc/frany_back/uploads/{{photo.Imagen}}" alt="" height="100" width="100">
+        
+    </div>
+    <button type="button" class="btn btn-danger" (click)="deleteFoto(photo.id)"> Eliminar </button>
+    </div>
+
+</div>

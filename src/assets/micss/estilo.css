@@ -1,0 +1,185 @@
+header {
+  background: violet;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+.fondoheader{
+  background: violet;
+  color: white;
+}
+header h2 {
+  color: white;
+}
+
+footer {
+  background: violet;
+  position: fixed;
+  top: 83%;
+  width: 100%;
+  z-index: 1;
+}
+footer h5 {
+  color: white;
+}
+footer ul {
+  color: white;
+}
+
+.login {
+  margin-top: 10%;
+  margin-left: 40%;
+  width: 300px;
+  height: 300px;
+  background: gray;
+}
+.login h2 {
+  color: white;
+}
+.login form {
+  margin-left: 20%;
+}
+
+.panel {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.panelFashion {
+  width: 200px;
+  height: 100px;
+}
+.panelFashion text {
+  margin-top: 40%;
+  size: 20px;
+}
+
+.panelLingerie {
+  width: 200px;
+  height: 100px;
+}
+.panelLingerie text {
+  margin-top: 40%;
+  size: 20px;
+}
+
+.panelNu {
+  width: 200px;
+  height: 100px;
+}
+.panelNu text {
+  margin-top: 40%;
+  size: 20px;
+}
+
+.panelSport {
+  width: 200px;
+  height: 100px;
+}
+.panelSport text {
+  margin-top: 40%;
+  size: 20px;
+}
+
+.addphoto {
+  margin-top: 10%;
+}
+
+.panelfotos{
+  width: 50%;
+  height: 50%;
+  margin-top: 8%;
+  margin-bottom: 14%;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=estilo.css.map */
+#content{
+  margin-top: 30px; 
+  border-radius: 2px;
+  background: white;
+  box-shadow: 0px 2px 5px #cccccc;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#header{
+  background: #DD0031;
+  color: white;
+  margin: 0px;
+  height: 90px;
+  line-height: 90px
+}
+
+#header h1{
+  display: block;
+  line-height: 90px;
+  font-weight: bold;
+  font-size: 30px
+}
+
+#nav{
+  padding: 0px;
+  margin: 0px;
+  background: #EB737D;
+}
+
+#nav ul{
+  margin: 0px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+#nav ul li{
+  float:left;
+  margin-right: 20px;
+}
+#nav ul li a{
+  display: block;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+  transition: all 300ms;
+}
+
+#nav ul li a:hover{
+  text-decoration: none;
+  background: #DD0031
+
+}
+.activado{
+  text-decoration: none !important;
+  background: #DD0031 !important;
+  border-bottom: 2px solid yellow !important;
+}
+
+#footer{
+  margin-top: 50px;
+  padding-top: 15px;
+  border-top:1px solid #eee;
+  color: gray
+}
+
+#main .jumbotron{
+  padding: 50px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+#form-producto label{
+  margin-top: 10px;
+}
+
+.producto_imagen{
+  width: 100%;
+  height: 200px;
+  margin: 0px auto;
+  display: block;
+}
+.imagen_relleno{
+  background: #cccccc;
+  width: 100%;
+  height: 200px;
+}

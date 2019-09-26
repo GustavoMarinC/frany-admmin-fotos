@@ -1,0 +1,13 @@
+.login{
+    margin-top: 10%;
+    margin-left: 40%;
+    @include cuadrado($gris);
+    h2{
+        color: $colorBlanco;
+    }
+
+    form{
+        margin-left: 20%;
+        
+    }
+}
