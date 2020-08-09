@@ -20,7 +20,7 @@ export class AddPhotoComponent implements OnInit {
   constructor(
     private _photoService: PhotoService
   ) { 
-    this.tipos=['fashion','lingerie','nu_artistique','sport','photos'];
+    this.tipos=['fashion','lingerie','nu_artistique','sport','photos','fetiche','portrait'];
     this.Photo = new Photo(0,'','','','');
   }
 
